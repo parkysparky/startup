@@ -23,4 +23,4 @@ Interesting things I have learned about React
 
 
 
-For a required commit I must input the following text: I love webprogramming
+For a required commit I must input the following text: I love web programming
