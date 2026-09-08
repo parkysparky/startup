@@ -6,12 +6,18 @@
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
+- [MasteryLS](https://masteryls.com/)
 - [Canvas](https://byu.instructure.com)
 - [MDN](https://developer.mozilla.org)
 
 ## AWS
 
-Interesting things I have learned about AWS
+Oodles of services. Important to set budgets. Any more than 1 elastic IP costs money. I set one so I can use the same IP and associate it with a domain name. We are using region us-east-1 for this class. 
+
+Access the server from the production directory with the following command:
+`ssh -i keys/production.pem ubuntu@13.223.206.110`
+
+
 
 ## HTML
 
