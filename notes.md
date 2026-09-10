@@ -10,14 +10,16 @@
 - [Canvas](https://byu.instructure.com)
 - [MDN](https://developer.mozilla.org)
 
-## Web Server Setup
-
+## Web Server Setup  
+We are using a preconfigured server for this class.  
+AMI ID: `ami-094c4a0be0b642a24` located within the region `US East (N. Virginia) - us-east-1`  
+  
 ### AWS
 
-Oodles of services. Important to set budgets. Any more than 1 elastic IP costs money. I set one so I can use the same IP and associate it with a domain name. We are using region us-east-1 for this class. 
+Oodles of services. Important to set budgets. Any more than 1 elastic IP costs money. I set one so I can use the same IP and associate it with a domain name.  
 
-Access the server from the production directory with the following command:
-`ssh -i keys/production.pem ubuntu@35.169.228.17`
+Access the server from the production directory with the following command:  
+`ssh -i keys/production.pem ubuntu@100.26.170.101`  
 
 ### DNS  
 Domains have levels like in the reference image below  
