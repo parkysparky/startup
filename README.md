@@ -25,8 +25,22 @@ The design will default to a dark mode view. After logging in the user will see 
 ```mermaid
 sequenceDiagram
     actor You
-    actor Website
-    You->>Website: Replace this with your design
+    actor Friend
+    participant Website
+    You->>Website: Login
+    Friend->>Website: Login
+    You->>Friend: Invite to poll
+    You->>Website: Vote
+    Friend->>Website: Vote
+    par Announce results to everyone
+        Website->>You: Result
+    and 
+        Website->>Friend: Result
+    end
+    Friend->>Website: Logout
+    You->>Website: Logout
+
+
 ```
 
 ### Key features
