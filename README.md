@@ -7,8 +7,9 @@
 
 My startup is a voting app intended to help groups settle on a restaurant, movie, activity, etc. It allows the user to toggle between voting systems that optimize for broadest appeal or greatest support.  
 
-> [!Disclaimer]  
->    I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
+> [!NOTE]
+> ** Disclaimer  
+> I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
 
 
 ### Elevator pitch
