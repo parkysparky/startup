@@ -4,7 +4,7 @@
 
 ### Assignment Checklist - Grading Rubric
 - [x] 10% - Proper use of Markdown in README.md.
-- [ ] 20% - A concise and compelling elevator pitch in your README.md.
+- [x] 20% - A concise and compelling elevator pitch in your README.md.
 - [ ] 10% - Description of key features in your README.md.
 - [ ] 30% - Description of how you will use each technology.
     - [ ] HTML - Basic structural and organizational elements.
@@ -19,15 +19,15 @@
 
 ### Summary
 
-My startup is a voting app intended to help groups settle on a restaurant, movie, activity, etc. It allows the uzer to toggle between voting systems that optomize for broadest appeal or greatest support.  
+My startup is a voting app intended to help groups settle on a restaurant, movie, activity, etc. It allows the user to toggle between voting systems that optimize for broadest appeal or greatest support.  
 
-> [Disclaimer]
-> I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
+> **Disclaimer  
+I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
 
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+You and your friends are out on a night on the town. It is getting late. You and your friends are hungry, and impatient, but none of you can seem to agree on where to go to eat. Enter WeChoose, the fast and easy way to get everyone on board. Just post a poll. Everyone selects the options they would be okay with, and the app declares what the group wants collectively. With a clean interface and live polling updates, don't get caught up in deciding what you want. Spend your time on what matters, enjoying the moment with your friends, doing what you love.  
 
 ### Design
 
