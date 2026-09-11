@@ -3,20 +3,18 @@
 [My Notes](notes.md)
 
 ### Assignment Checklist - Grading Rubric
-
-    Prerequisite: Notes in your startup Git repository README.md file documenting what you modified and added with this deliverable. The TAs will only grade things that have been clearly described as being completed. Review the voter app as an example.
-    Prerequisite: Enough Git commits to fully prove your ownership of your code. This usually means dozens of commits spread across multiple days of the deliverable development period. Failure to do this may result in the rejection of your submission.
-    10% - Proper use of Markdown in README.md.
-    20% - A concise and compelling elevator pitch in your README.md.
-    10% - Description of key features in your README.md.
-    30% - Description of how you will use each technology.
-        HTML - Basic structural and organizational elements.
-        CSS - Styling and animating.
-        React - Componentization, routing, and user reactivity using the React framework and JavaScript.
-        Web service - Endpoints provided by your backend service that support authentication and application specific functionality. Also include a link to the 3rd party API you plan on using.
-        Database - Store authentication and application data.
-        WebSocket - Realtime information pushed from your backend to your frontend.
-    30% - One or more rough sketches of your application. Images must be embedded in your README.md
+- [x] 10% - Proper use of Markdown in README.md.
+- [ ] 20% - A concise and compelling elevator pitch in your README.md.
+- [ ] 10% - Description of key features in your README.md.
+- [ ] 30% - Description of how you will use each technology.
+    - [ ] HTML - Basic structural and organizational elements.
+    - [ ] CSS - Styling and animating.
+    - [ ] React - Componentization, routing, and user reactivity using the - [ ] React framework and JavaScript.
+    - [ ] Web service - Endpoints provided by your backend service that support authentication and application specific functionality. 
+        - [ ] Also include a link to the 3rd party API you plan on using.
+    - [ ] Database - Store authentication and application data.
+    - [ ] WebSocket - Realtime information pushed from your backend to your frontend.
+- [ ] 30% - One or more rough sketches of your application. Images must be embedded in your README.md
 
 
 ### Summary
