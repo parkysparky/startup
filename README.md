@@ -7,8 +7,8 @@
 
 My startup is a voting app intended to help groups settle on a restaurant, movie, activity, etc. It allows the user to toggle between voting systems that optimize for broadest appeal or greatest support.  
 
-> **Disclaimer  
-I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
+> [!Disclaimer]  
+>    I decided on what I wanted my app to be and reserved an awesome domain name ([wechoose.click](wechoose.click)) before I ever saw the example for this part. I really like what I have so far and I would prefer not to start over. I am committed to doing my own original work, and I am excited to make this web app.
 
 
 ### Elevator pitch
@@ -17,9 +17,9 @@ You and your friends are out on a night on the town. It is getting late. You and
 
 ### Design
 
-![Design image](.\images\readme\placeholder.png)
+![Design image](.\images\readme\LoggedIn.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The design will default to a dark mode view. After logging in the user will see any active polls they are participating in. There is a hamburger menu that allows them to select between the various website functions.
 
 ```mermaid
 sequenceDiagram
@@ -64,7 +64,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] A concise and compelling elevator pitch
 - [x] Description of key features
 - [x] Description of how you will use each technology including your 3rd party API and use of WebSocket
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ## 🚀 AWS deliverable
 
