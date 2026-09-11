@@ -44,20 +44,26 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Group voting
+- Live updates, can toggle vote progress with or without voter attribution 
+- Friend lists and groups to enable fast poll publication
+- login and persistent voting history. User controls poll history save duration 
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - General formatting and structure
+- **CSS** - Styling and animations
+- **React** - creating UI for login, friend list, poll creation, voting
+- **Service** 
+    - Connecting DB to user input and requests
+    - logic for handling voting systems
+    - user access operations: logging in, logging out, registering, deleting account
+    - friend requests
+    - option for public polls not connecting to friend lists
+- **DB/Login** - User data: login credentials, friend lists, poll history 
+- **WebSocket** - Live vote updates posted to all voters, notifications of new polls and friend requests
 
 ## 🚀 Specification Deliverable
 
