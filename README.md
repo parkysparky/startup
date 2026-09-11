@@ -33,7 +33,7 @@ sequenceDiagram
 - Group voting
 - Live updates, can toggle vote progress with or without voter attribution 
 - Friend lists and groups to enable fast poll publication
-- login and persistent voting history. User controls poll history save duration 
+- Login and persistent voting history. User controls poll history save duration 
 
 ### Technologies
 
@@ -46,6 +46,7 @@ I am going to use the required technologies in the following ways.
     - Connecting DB to user input and requests
     - logic for handling voting systems
     - user access operations: logging in, logging out, registering, deleting account
+    - Users will have their email address authenticated using the [Mailboxlayer API](https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers)
     - friend requests
     - option for public polls not connecting to friend lists
 - **DB/Login** - User data: login credentials, friend lists, poll history 
