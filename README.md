@@ -2,20 +2,6 @@
 
 [My Notes](notes.md)
 
-### Assignment Checklist - Grading Rubric
-- [x] 10% - Proper use of Markdown in README.md.
-- [x] 20% - A concise and compelling elevator pitch in your README.md.
-- [ ] 10% - Description of key features in your README.md.
-- [ ] 30% - Description of how you will use each technology.
-    - [ ] HTML - Basic structural and organizational elements.
-    - [ ] CSS - Styling and animating.
-    - [ ] React - Componentization, routing, and user reactivity using the - [ ] React framework and JavaScript.
-    - [ ] Web service - Endpoints provided by your backend service that support authentication and application specific functionality. 
-        - [ ] Also include a link to the 3rd party API you plan on using.
-    - [ ] Database - Store authentication and application data.
-    - [ ] WebSocket - Realtime information pushed from your backend to your frontend.
-- [ ] 30% - One or more rough sketches of your application. Images must be embedded in your README.md
-
 
 ### Summary
 
@@ -72,11 +58,11 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Git commit requirement)
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology including your 3rd party API and use of WebSocket
+- [x] I completed the prerequisites for this deliverable (Git commit requirement)
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology including your 3rd party API and use of WebSocket
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ## 🚀 AWS deliverable
