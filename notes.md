@@ -19,7 +19,7 @@ AMI ID: `ami-094c4a0be0b642a24` located within the region `US East (N. Virginia)
 Oodles of services. Important to set budgets. Any more than 1 elastic IP costs money. I set one so I can use the same IP and associate it with a domain name.  
 
 Access the server from the production directory with the following command:  
-`ssh -i keys/production.pem ubuntu@100.26.170.101`  
+`ssh -i keys/production.pem ubuntu@wechoose.click`  
 
 ### DNS  
 Domains have levels like in the reference image below  
