@@ -86,7 +86,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] **Rented EC2 server**   t3nano
-- [x] **Leased domain nam**  [https://wechoose.click](https://wechoose.click)  
+- [x] **Leased domain name**  [https://wechoose.click](https://wechoose.click)  
 - [x] **Server accessible** and secured using Caddy
 ## 🚀 HTML deliverable
 
