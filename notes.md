@@ -29,15 +29,17 @@ Domains have levels like in the reference image below
 ## HTML
 
 Interesting things I have learned about HTML  
-
-## CSS
+## CSS 
+Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.  
 ### Responsive Design
 Viewport
 Display Types  
 ![Types of Responsive Design](./images/readme/responsiveDesignTypes.png)
 
 
+The two most important are probably grid and flex
 
+Flex defaults to Row direction
 
 ## React
 
