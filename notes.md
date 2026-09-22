@@ -10,7 +10,7 @@
 - [Canvas](https://byu.instructure.com)
 - [MDN](https://developer.mozilla.org)
 
-## Web Server Setup  
+### Web Server Setup  
 We are using a preconfigured server for this class.  
 AMI ID: `ami-094c4a0be0b642a24` located within the region `US East (N. Virginia) - us-east-1`  
   
@@ -26,7 +26,7 @@ Domains have levels like in the reference image below
 ![subdomain.secondary.top](./images/domainNameParts.jpg)
 
 
-## HTML
+### HTML
 
 **anchor** tag example
 ```html
@@ -39,9 +39,10 @@ Domains have levels like in the reference image below
 ```
 
 
-## CSS 
-Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.  
-### Responsive Design
+### CSS 
+Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.   
+
+#### Responsive Design
 Viewport
 Display Types  
 ![Types of Responsive Design](./images/readme/responsiveDesignTypes.png)
