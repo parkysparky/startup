@@ -51,7 +51,9 @@ The most important is **flex** probably followed by **grid**
 
 **Flex** Justify is parallel to direction. align-content is perpendicular to direction. default is horizontal.   
 
-**Frameworks** - premade CSS package that offers numerous classes and functions. Bootstrap is the most popular followed by Tailwind   F 
+**Frameworks** - premade CSS package that offers numerous classes and functions. Bootstrap is the most popular followed by Tailwind  
+
+If a CSS class is nested inside another, that inheritance can be used in the HTML document
 
 
 
