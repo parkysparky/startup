@@ -28,7 +28,8 @@ Domains have levels like in the reference image below
 
 ## HTML
 
-Interesting things I have learned about HTML
+Interesting things I have learned about HTML  
+
 ## CSS
 ### Responsive Design
 Viewport
