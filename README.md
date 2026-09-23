@@ -93,15 +93,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [x] **HTML pages** - I did not complete this part of the deliverable.
-- [x] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [x] **Links** - I did not complete this part of the deliverable.
-- [x] **Text** - I did not complete this part of the deliverable.
-- [x] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [x] **Images** - I did not complete this part of the deliverable.
-- [x] **Login placeholder** - I did not complete this part of the deliverable.
-- [x] **DB data placeholder** - I did not complete this part of the deliverable.
-- [x] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I adapted all the simon html documents to my needs.
+- [x] **Proper HTML element usage** - my elements use the given structure so they should be awesome.
+- [x] **Links** - I updated all the links to match how I renamed the html files.
+- [x] **Text** - I updated the text to match my startup.
+- [x] **3rd party API placeholder** - I put in API placeholder text.
+- [x] **Images** - I put a sample image on the about page.
+- [x] **Login placeholder** - updated simon homepage login to match my startup.
+- [x] **DB data placeholder** - I added DB placeholder text whenever there is a call to the DB.
+- [x] **WebSocket placeholder** - I added WebSocket placeholder text where there would be woebsocket services
 
 ## 🚀 CSS deliverable
 
