@@ -8,23 +8,23 @@ This interaction demonstrates the different media elements.
 
 <body>
   <h2>Image</h2>
-  <img alt="Arches" src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/htmlImage.jpg" />
+  <img alt="Fruit Basket" src="https://imgs.search.brave.com/5K7j_XVJQwU6JRe8g-TdYe4lyGfwyhp1wuWUotCRsw8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5zaHV0dGVyc3Rv/Y2suY29tL2ltYWdl/LXBob3RvL2NvbXBv/c2l0aW9uLXZhcmll/dHktZnJ1aXRzLXdp/Y2tlci1iYXNrZXQt/MjYwbnctNjQ1NzQ2/NTMuanBn" />
 
   <h2>Audio</h2>
   <audio controls src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/htmlAudio.mp3"></audio>
 
   <h2>Video</h2>
-  <video controls width="300"> <source src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/park.mp4" />
+  <video controls width="300"> <source src="https://www.youtube.com/watch?v=clsohrBp8l0" />
   </video>
 
   <h2>Canvas</h2>
-  <canvas id="canvasDemo" width="300" height="200" style="border: 1px solid #000000"></canvas>
+  <canvas id="canvasDemo" width="300" height="200" style="border: 1px solid #080cde"></canvas>
   <script>
     const ctx = document.getElementById('canvasDemo').getContext('2d');
     ctx.beginPath();
     ctx.arc(150, 100, 50, 0, 2 * Math.PI);
-    ctx.fillStyle = 'red';
-    ctx.strokeStyle = 'red';
+    ctx.fillStyle = 'blue';
+    ctx.strokeStyle = 'blue';
     ctx.fill();
     ctx.stroke();
   </script>
