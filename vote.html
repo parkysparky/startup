@@ -25,71 +25,36 @@
     </header>
 
     <main>
-      <div class="players">
-        Player:
-        <span class="player-name">Mystery player</span>
+      <div class="users">
+        User:
+        <span class="username">username</span>
       </div>
+      Websocket information
       <ul class="notification">
-        <li class="player-name">Tim started a new game</li>
-        <li class="player-name">Ada started a new game</li>
-        <li class="player-name">Tim scored 337</li>
+        <li class="username">Tim started a friend poll <a class="poll-results" src="polls">view details (placeholder for DB call to poll)</a></li>
+        <li class="username">Ada invited you to a particapate in a private poll <a class="poll-results" src="polls">view details (placeholder for DB call to poll)</a></li>
+        <li class="username">Tim's Choice: Song is now closed. WeChose September. <a class="poll-results" src="polls">view details (placeholder for DB call to poll)</a></li>
       </ul>
 
       <!-- More formatting with old style HTML -->
       <br />
 
       <div>
-        <label for="count">Score</label>
-        <input type="text" id="count" value="--" readonly />
+        <label for="count">New Choice</label>
+        <input type="text" id="Choice" value="What will WeChoose?" />
       </div>
 
       <br />
 
       <div>
         <button>Reset</button>
+        <button>Add Option</button>
       </div>
 
       <br />
 
       <div>
-        <table>
-          <tr>
-            <td>
-              <button>
-                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
-                  <!-- SVG
-                    M move <to x,y>
-                    Q quadratic curve <control point x,y> <to x,y>
-                -->
-                  <path d="M 95,5 95,95 5,95 Q 5,5 95,5" fill="green" />
-                </svg>
-              </button>
-            </td>
-            <td>
-              <button>
-                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
-                  <path d="M5,5 5,95 95,95 Q 95,5 5,5" fill="red" />
-                </svg>
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button>
-                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
-                  <path d="M5,5 95,5 95,95 Q 5,95 5,5" fill="blue" />
-                </svg>
-              </button>
-            </td>
-            <td>
-              <button>
-                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
-                  <path d="M95,5 5,5 5,95 Q 95,95 95,5" fill="yellow" />
-                </svg>
-              </button>
-            </td>
-          </tr>
-        </table>
+        
       </div>
     </main>
 
