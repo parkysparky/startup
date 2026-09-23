@@ -10,7 +10,7 @@ Experiment with the form inputs.
 
 <body>
   <h1>Example Form</h1>
-  <form id="messageForm" type="color" value="#ff0000">
+  <form id="messageForm">
     <ul>
       <li>
         <!-- Includes validation-->
@@ -140,7 +140,7 @@ Experiment with the form inputs.
       </li>
       <li>
         <label for="color">Color: </label>
-        <input type="color" name="vColor" id="color" />
+        <input type="color" name="vColor" id="color" value="#ff0000"/>
       </li>
       <!-- This doesn't show up to the user, but allows the form to send associated data. -->
       <input type="hidden" id="secretData" name="vSecretData" value="1989 - the web was born" />
