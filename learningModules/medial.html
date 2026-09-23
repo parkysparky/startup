@@ -1,0 +1,35 @@
+<!-- 
+Assignment - Web page development
+This interaction demonstrates the different media elements.
+    [ ] Change the image to something else.
+    [ ] Change the video to something else.
+    [ ] Change the canvas element to display a blue circle. 
+-->
+
+<body>
+  <h2>Image</h2>
+  <img alt="Arches" src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/htmlImage.jpg" />
+
+  <h2>Audio</h2>
+  <audio controls src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/htmlAudio.mp3"></audio>
+
+  <h2>Video</h2>
+  <video controls width="300"> <source src="https://raw.githubusercontent.com/webprogramming260/webprogramming/main/instruction/html/media/park.mp4" />
+  </video>
+
+  <h2>Canvas</h2>
+  <canvas id="canvasDemo" width="300" height="200" style="border: 1px solid #000000"></canvas>
+  <script>
+    const ctx = document.getElementById('canvasDemo').getContext('2d');
+    ctx.beginPath();
+    ctx.arc(150, 100, 50, 0, 2 * Math.PI);
+    ctx.fillStyle = 'red';
+    ctx.strokeStyle = 'red';
+    ctx.fill();
+    ctx.stroke();
+  </script>
+</body>
+
+<style>
+body { padding: 1em;}
+</style>
