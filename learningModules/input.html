@@ -1,10 +1,10 @@
 <!-- 
-Form assignment
+Form assignment - https://masteryls.com/course/1a8c01d0-5e9c-4a7c-8597-55bd5159967e/topic/392e4c96-5bf6-48db-8496-82346b40e7e8
 Experiment with the form inputs.
-    [ ] Replace the text input's placeholder with "your name here".
-    [ ] Add an additional optgroup.
-    [ ] Add an additional checkbox.
-    [ ] Add an additional radio button.
+    [x] Replace the text input's placeholder with "your name here".
+    [x] Add an additional optgroup.
+    [x] Add an additional checkbox.
+    [x] Add an additional radio button.
     [ ] Change the color input to default to red.
 -->
 
@@ -15,7 +15,7 @@ Experiment with the form inputs.
       <li>
         <!-- Includes validation-->
         <label for="text">Text: </label>
-        <input type="text" id="text" name="vText" placeholder="text that starts with A" required pattern="[Aa].*" />
+        <input type="text" id="text" name="vText" placeholder="Your Name Here" required pattern="[A-Za-z].*" /> <!-- alphabetical characters only-->
       </li>
       <li>
         <label for="password">Password: </label>
@@ -48,6 +48,10 @@ Experiment with the form inputs.
             <option>option3</option>
             <option>option4</option>
           </optgroup>
+          <optgroup label="group3">
+            <option>option5</option>
+            <option>option6</option>
+          </optgroup>
         </select>
       </li>
       <li>
@@ -59,6 +63,8 @@ Experiment with the form inputs.
           <input type="checkbox" id="checkbox2" name="vCheckbox" value="checkbox2" />
           <label for="checkbox3">checkbox3</label>
           <input type="checkbox" id="checkbox3" name="vCheckbox" value="checkbox3" />
+          <label for="checkbox4">checkbox4</label>
+          <input type="checkbox" id="checkbox4" name="vCheckbox" value="checkbox4" />
         </fieldset>
       </li>
       <li>
@@ -70,6 +76,8 @@ Experiment with the form inputs.
           <input type="radio" id="radio2" name="vRadio" value="radio2" />
           <label for="radio3">radio3</label>
           <input type="radio" id="radio3" name="vRadio" value="radio3" />
+          <label for="radio4">radio4</label>
+          <input type="radio" id="radio4" name="vRadio" value="radio4" />
         </fieldset>
       </li>
       <li>
