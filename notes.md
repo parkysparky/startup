@@ -38,6 +38,16 @@ Domains have levels like in the reference image below
 <img src="https://imgs.search.brave.com/5K7j_XVJQwU6JRe8g-TdYe4lyGfwyhp1wuWUotCRsw8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5zaHV0dGVyc3Rv/Y2suY29tL2ltYWdl/LXBob3RvL2NvbXBv/c2l0aW9uLXZhcmll/dHktZnJ1aXRzLXdp/Y2tlci1iYXNrZXQt/MjYwbnctNjQ1NzQ2/NTMuanBn" alt="Fruit Basket" width="200"> </img>
 ```
 
+#### Deploying 
+Use the script they made, it is easier. This example deploys the given Simon code
+```
+./deployFiles.sh -k ../keys/production.pem -h wechoose.click -s simon
+```
+if that does not work, I may need to change the permissions on the script file using the following command
+```
+sudo chmod +x deployFiles.sh
+```
+
 
 ### CSS 
 Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.   
