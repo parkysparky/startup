@@ -169,7 +169,7 @@ If a CSS class is nested inside another, that inheritance can be used in the HTM
 
 ## React
 
-Interesting things I have learned about React
+React files use type .jsx that file type is a combination of Javascript and HTML
 
 
 
