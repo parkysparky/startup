@@ -52,7 +52,9 @@ sudo chmod +x deployFiles.sh
 ### CSS 
 Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.   
 
-#### Combinators
+#### **Selectors**
+
+**Combinators**  
 CSS styles are applied to HTML elements using selectors. Typically the HTML element name is the selector, and when more precision is needed you apply combinators to the selectors to choose exactly the elements to which you wish to apply a given style rule.  
 |Combinator      |Meaning                   |Example     |Description                               |
 |----------------|--------------------------|------------|------------------------------------------|
@@ -61,8 +63,22 @@ CSS styles are applied to HTML elements using selectors. Typically the HTML elem
 |General sibling |A list of siblings        |div ~ p     |Any p that has a div sibling              |
 |Adjacent sibling|A list of adjacent sibling|div + p     |Any p that has an adjacent div sibling    |
 
+**ID selector**  
+Any HTML element can have an ID. IDs should be unique so that the CSS applies only to that element  
 
-#### Responsive Design
+**Attribute selector**  
+Attribute selectors allow you to select elements based upon their attributes. You use an attribute selector to select any element with a given attribute (`a[href]`). You can also specify a required value for an attribute (a[href="./fish.png"]) in order for the selector to match. Attribute selectors also support wildcards such as the ability to select attribute values containing specific text (`p[href*="https://"]`).
+```CSS
+p[class='summary'] {
+color: red;
+}
+```
+
+**Pseudo selector**  
+CSS also defines a significant list of pseudo selectors which select based on positional relationships, mouse interactions, hyperlink visitation states, and attributes.
+
+
+#### **Responsive Design**
 Viewport
 Display Types  
 ![Types of Responsive Design](./images/readme/responsiveDesignTypes.png)
