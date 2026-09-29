@@ -141,6 +141,15 @@ There are a few key ways to assign color value. They are described in the table 
 |RGB function|`rgb(128, 255, 128, 0.5)`|Red, green, and blue as a percentage or number between 0 and 255, with an optional alpha opacity percentage                                                                                                      |
 |HSL         |`hsl(180, 30%, 90%, 0.5)`|Hue, saturation, and light, with an optional opacity percentage. Hue is the position on the 365 degree color wheel (red is 0 and 255). Saturation is how gray the color is, and light is how bright the color is.|
 
+#### **Fonts**
+You can import fonts in CSS. You can import open source ones (Google has a bunch) from websites and then style with a fun custom font.
+```CSS
+@import url('https://fonts.googleapis.com/css2?family=Rubik Microbe&display=swap');
+
+p {
+  font-family: 'Rubik Microbe';
+}
+```
 
 #### **Responsive Design**
 Viewport
