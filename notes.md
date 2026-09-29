@@ -79,7 +79,9 @@ color: red;
 CSS also defines a significant list of pseudo selectors which select based on positional relationships, mouse interactions, hyperlink visitation states, and attributes.
 
 
-#### **Properties**
+#### **Declarations**
+
+**Properties**
 CSS rule declarations specify a property and value to assign when the rule selector matches one or more elements. There are oodles of possible properties defined for modifying the style of an HTML document. Listed below are the more commonly used ones
 |Property          |Value                             |Example          |Discussion                                                                    |
 |------------------|----------------------------------|-----------------|------------------------------------------------------------------------------|
@@ -111,6 +113,33 @@ CSS rule declarations specify a property and value to assign when the rule selec
 |transform         |transform-function                |`rotate(0.5turn)`  |Applies a transformation to the element                                       |
 |width             |unit                              |`25vmin`           |Sets the width of the box                                                     |
 |z-index           |number                            |`100`              |Controls the positioning of the element on the z axis                         |
+
+**Units**
+Units define the size of a property. The table shows a sample of sizing using absolute sizing, relative to the letter 'm' or as a percentage of the parent element, or as a percentage of the viewport.
+|Unit|Description                                                     |
+|----|----------------------------------------------------------------|
+|px  |The number of pixels                                            |
+|pt  |The number of points (1/72 of an inch)                          |
+|in  |The number of inches                                            |
+|cm  |The number of centimeters                                       |
+|%   |A percentage of the parent element                              |
+|em  |A multiplier of the width of the letter `m` in the parent's font|
+|rem |A multiplier of the width of the letter `m` in the root's font  |
+|ex  |A multiplier of the height of the element's font                |
+|vw  |A percentage of the viewport's width                            |
+|vh  |A percentage of the viewport's height                           |
+|vmin|A percentage of the viewport's smaller dimension                |
+|vmax|A percentage of the viewport's larger dimension                 |
+
+
+**color**
+There are a few key ways to assign color value. They are described in the table below
+|Method      |Example                |Description                                                                                                                                                                                                      |
+|------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|keyword     |`red`                    |A set of predefined colors (e.g. white, cornflowerblue, darkslateblue)                                                                                                                                           |
+|RGB hex     |`#00FFAA22 or #0FA2`     |Red, green, and blue as a hexadecimal number, with an optional alpha opacity                                                                                                                                     |
+|RGB function|`rgb(128, 255, 128, 0.5)`|Red, green, and blue as a percentage or number between 0 and 255, with an optional alpha opacity percentage                                                                                                      |
+|HSL         |`hsl(180, 30%, 90%, 0.5)`|Hue, saturation, and light, with an optional opacity percentage. Hue is the position on the 365 degree color wheel (red is 0 and 255). Saturation is how gray the color is, and light is how bright the color is.|
 
 
 #### **Responsive Design**
