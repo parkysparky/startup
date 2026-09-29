@@ -63,7 +63,6 @@ CSS styles are applied to HTML elements using selectors. Typically the HTML elem
 | Child | A list of direct children | section > p | Any p that is a direct child of a section |
 | General sibling | A list of siblings | div ~ p | Any p that has a div sibling |
 | Adjacent sibling | A list of adjacent sibling | div + p | Any p that has an adjacent div sibling |
-</details>
 
 **ID selector**  
 Any HTML element can have an ID. IDs should be unique so that the CSS applies only to that element  
