@@ -52,6 +52,16 @@ sudo chmod +x deployFiles.sh
 ### CSS 
 Prof. Christiansen said if we do all 24 levels of [Flexbox Froggy](https://flexboxfroggy.com/) he would give a little extra credit.   
 
+#### Combinators
+CSS styles are applied to HTML elements using selectors. Typically the HTML element name is the selector, and when more precision is needed you apply combinators to the selectors to choose exactly the elements to which you wish to apply a given style rule.  
+|Combinator      |Meaning                   |Example     |Description                               |
+|----------------|--------------------------|------------|------------------------------------------|
+|Descendant      |A list of descendants     |body section|Any section that is a descendant of a body|
+|Child           |A list of direct children |section > p |Any p that is a direct child of a section |
+|General sibling |A list of siblings        |div ~ p     |Any p that has a div sibling              |
+|Adjacent sibling|A list of adjacent sibling|div + p     |Any p that has an adjacent div sibling    |
+
+
 #### Responsive Design
 Viewport
 Display Types  
