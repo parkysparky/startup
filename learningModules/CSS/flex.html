@@ -26,8 +26,11 @@ body {
 }
 
 main {
+  display: flex;
   flex: 1;
-  font-size: 30px;
+  font-size: 15vh;
+  justify-content: center; 
+  align-items: center;
 }
 
 header {
@@ -35,8 +38,13 @@ header {
   background: hsl(223, 57%, 38%);
   color: white;
 
-  height: 80px;
+  display: flex;
+  gap: 0.1em;
+  height: 28px;
+  width: 100vw;
   flex-shrink: 0;
+  position: fixed; 
+  top: 0;
 }
 
 div {
@@ -49,7 +57,7 @@ footer {
 
   display: flex;
   flex-direction: column;
-  float: right;
+  align-items: center;
   
 }
 </style>
