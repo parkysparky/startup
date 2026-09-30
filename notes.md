@@ -193,7 +193,7 @@ with the given HTML
 ```
 
 styled with the following CSS  
-```css
+```CSS
 .none {
   display: none;
 }
@@ -222,9 +222,43 @@ They will generate a website that look like this:
 ![Types of Responsive Design](./images/readme/responsiveDesignTypes.png)
 
 
-The most important is **flex** probably followed by **grid**  
+**@media**
+You can use media queries to detect the orientation and size of the user's screen. With this information you can make lots of design decisions. For example, you could choose to make entire pieces of your application disappear, or move to a different location. For example, if we had an aside that was helpful when the screen is wide, but took up too much room when the screen got narrow, we could use the following media query to make it disappear.
 
-**Flex** Justify is parallel to direction. align-content is perpendicular to direction. default is horizontal.   
+```CSS
+@media (orientation: portrait) {
+  aside {
+    display: none;
+  }
+}
+```
+
+The two most important data types for Responsive Design are **grid** and **flex**.  
+
+**Grid**
+Example:
+HTML:  
+```HTML
+
+```
+
+CSS:  
+```CSS
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+  grid-gap: 1em;
+}
+```
+
+This code yields a program that can dynamically update the arrangement of the grid like so:  
+![Updating grid](./images/readme/cssGrid.gif)
+
+
+**Flex**  
+Justify is parallel to direction. align-content is perpendicular to direction. default is horizontal.   
+
 
 **Frameworks** - premade CSS package that offers numerous classes and functions. Bootstrap is the most popular followed by Tailwind  
 
