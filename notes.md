@@ -152,8 +152,73 @@ p {
 ```
 
 #### **Responsive Design**
-Viewport
-Display Types  
+**Viewport**
+
+```css
+<meta name="viewport" content="width=device-width,initial-scale=1"  
+```
+This tells the browser to not scale the page.  
+
+**Display Types**   
+
+Here is a table of the Responsive Display Types
+
+|Value |Meaning                                                                                                                 |
+|------|------------------------------------------------------------------------------------------------------------------------|
+|none  |Don't display this element. The element still exists, but the browser will not render it.                               |
+|block |Display this element with a width that fills its parent element. A p or div element has block display by default.       |
+|inline|Display this element with a width that is only as big as its content. A b or span element has inline display by default.|
+|flex  |Display this element's children in a flexible orientation.                                                              |
+|grid  |Display this element's children in a grid orientation.                                                                  |
+
+
+with the given HTML  
+```html
+<div class="none">None</div>
+<div class="block">Block</div>
+<div class="inline">Inline1</div>
+<div class="inline">Inline2</div>
+<div class="flex">
+  <div>FlexA</div>
+  <div>FlexB</div>
+  <div>FlexC</div>
+  <div>FlexD</div>
+</div>
+<div class="grid">
+  <div>GridA</div>
+  <div>GridB</div>
+  <div>GridC</div>
+  <div>GridD</div>
+</div>
+```
+
+styled with the following CSS  
+```css
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+```
+
+They will generate a website that look like this:
+
 ![Types of Responsive Design](./images/readme/responsiveDesignTypes.png)
 
 
@@ -167,7 +232,7 @@ If a CSS class is nested inside another, that inheritance can be used in the HTM
 
 
 
-## React
+### React
 
 React files use type .jsx that file type is a combination of Javascript and HTML
 
