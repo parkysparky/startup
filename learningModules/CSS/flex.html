@@ -1,0 +1,55 @@
+<header>
+  <div>home</div>
+  <div>play</div>
+  <div>about</div>
+</header>
+<main>
+  <div>login</div>
+  <div>password</div>
+</main>
+<footer>GitHub</footer>
+
+<style>
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  font-size: 30px;
+}
+
+header {
+  font-size: 20px;
+  background: hsl(223, 57%, 38%);
+  color: white;
+
+  height: 80px;
+  flex-shrink: 0;
+}
+
+div {
+  padding: 0 0.5em;
+}
+
+footer {
+  background: hsl(180, 30%, 15%);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  float: right;
+  
+}
+</style>
