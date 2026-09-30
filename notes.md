@@ -166,8 +166,8 @@ Here is a table of the Responsive Display Types
 |Value |Meaning                                                                                                                 |
 |------|------------------------------------------------------------------------------------------------------------------------|
 |none  |Don't display this element. The element still exists, but the browser will not render it.                               |
-|block |Display this element with a width that fills its parent element. A p or div element has block display by default.       |
-|inline|Display this element with a width that is only as big as its content. A b or span element has inline display by default.|
+|block |Display this element with a width that fills its parent element. A `p` or `div` element has block display by default.       |
+|inline|Display this element with a width that is only as big as its content. A `b` or `span` element has inline display by default.|
 |flex  |Display this element's children in a flexible orientation.                                                              |
 |grid  |Display this element's children in a grid orientation.                                                                  |
 
