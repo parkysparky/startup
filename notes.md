@@ -260,7 +260,7 @@ This code yields a program that can dynamically update the arrangement of the gr
 Justify is parallel to direction. align-content is perpendicular to direction. default is horizontal.   
 
 
-**Frameworks** - premade CSS package that offers numerous classes and functions. Bootstrap is the most popular followed by Tailwind  
+**Frameworks** - premade CSS package that offers numerous classes and functions. Bootstrap was the most popular, it has now been passed up by Tailwind  
 
 If a CSS class is nested inside another, that inheritance can be used in the HTML document
 
