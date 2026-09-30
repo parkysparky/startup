@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   display: flex;
   flex-direction: column;
@@ -39,6 +41,7 @@ menu .nav-item {
 
 footer a {
   float: right;
+  font-family: Roboto;
 }
 
 @media (max-height: 600px) {
