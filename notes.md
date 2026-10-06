@@ -270,6 +270,11 @@ If a CSS class is nested inside another, that inheritance can be used in the HTM
 
 React files use type .jsx that file type is a combination of Javascript and HTML
 
-testing push from new computer
+In class react set up 10/1/26
 
-For a required commit I must input the following text: I love web programming
+**Debuging in VS Code**
+
+Professor Recomendations:
+
+ - Debug backend in VS Code using Node
+ - When using Node you can enable the --watch paramter. This tells Node to watch the source code files and reload the web page when changes are detected. This skips having to reload the web server each time you make a change. Very handy :)
